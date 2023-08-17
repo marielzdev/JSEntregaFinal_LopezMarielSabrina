@@ -28,7 +28,6 @@ body {
 }
 .imgLogo {
   width: 40%;
-  /* margin-left: -30%; */
 }
 
 img {
@@ -46,16 +45,16 @@ img {
 }
 
 h1 {
-  color: rgb(235, 72, 237);
+  color: rgb(7, 163, 171);
   text-transform: uppercase;
   font-weight: 500px;
   font-size: 30px;
   margin: 0;
 }
-
+/* efectos al contador del carrito de compras*/
 #cesta-carrito {
   border: none;
-  color: rgb(225, 65, 201);
+  color: rgb(7, 163, 171);
   font-size: 30px;
   background-color: white;
   border-radius: 50%;
@@ -66,13 +65,13 @@ h1 {
 #cesta-carrito:hover {
   cursor: pointer;
   color: white;
-  background-color: rgb(237, 149, 143);
+  background-color: rgb(146, 143, 237);
 }
 
 #cesta-carrito:focus {
   outline: none;
 }
-
+/*efectos para el contenedor de los productos*/
 #producto-contenedor {
   display: grid;
   gap: 1rem;
@@ -81,6 +80,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 p {

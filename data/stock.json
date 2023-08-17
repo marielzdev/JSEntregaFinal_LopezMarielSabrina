@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "nombre": "Inglés Inicial",
+    "tipo": "Idioma",
+    "desc": "Guia de Inglés nivel Inicial",
+    "precio": 6200,
+    "imagen": "/public/images/englishStarter.png",
+    "cantidad": 1
+  },
+
+  {
+    "id": 2,
+    "nombre": "Inglés  Intermedio",
+    "tipo": "Idioma",
+    "desc": "Guia de Inglés nivel Intermedio",
+    "precio": 6200,
+    "imagen": "/public/images/englishInter.png",
+    "cantidad": 1
+  },
+
+  {
+    "id": 3,
+    "nombre": "Inglés Avanzado",
+    "tipo": "Idioma",
+    "desc": "Guia de Italiano nivel Avanzado",
+    "precio": 6200,
+    "imagen": "/public/images/englishAdva.png",
+    "cantidad": 1
+  },
+
+  {
+    "id": 4,
+    "nombre": "Italiano Inicial",
+    "tipo": "Idioma",
+    "desc": "Guia de Italiano nivel Inicial",
+    "precio": 6000,
+    "imagen": "/public/images/italianoIni.png",
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Italiano Intermedio",
+    "tipo": "Idioma",
+    "desc": "Guia de Italiano nivel Intermedio",
+    "precio": 6000,
+    "imagen": "/public/images/italianoInter.png",
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Italiano Avanzado",
+    "tipo": "Idioma",
+    "desc": "Guia de Italiano nivel Avanzado",
+    "precio": 6000,
+    "imagen": "/public/images/italianoAvan.png",
+    "cantidad": 1
+  },
+  {
+    "id": 7,
+    "nombre": "Turco Inicial",
+    "tipo": "Idioma",
+    "desc": "Guia de Turco nivel Inicial",
+    "precio": 6100,
+    "imagen": "/public/images/turcoIni.png",
+    "cantidad": 1
+  },
+  {
+    "id": 8,
+    "nombre": "Turco Avanzado",
+    "tipo": "Idioma",
+    "desc": "Guia de Turco nivel Avanzado",
+    "precio": 6100,
+    "imagen": "/public/images/turcoAvan.png",
+    "cantidad": 1
+  }
+]
