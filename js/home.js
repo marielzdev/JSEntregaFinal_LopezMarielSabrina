@@ -9,7 +9,7 @@ const pintarProductos = (data) => {
 <a class = "btn-floating halfway-fab wabes-effect waves-light red" id=""><i id=${producto.id} class="material-icons agregar">add_shopping_cart</i></a>
 </div>
 <div class="card-content">
-<p>${producto.descripcion}</p>
+<p>${producto.desc}</p>
 <p>${producto.precio}</p>
 
 </div>
