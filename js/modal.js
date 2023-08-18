@@ -5,7 +5,7 @@ const cerrarCarrito = document.getElementById("btn-cerrar-carrito");
 const modalCarrito = document.querySelector(".modal-carrito");
 const compraExitosa = document.getElementById("compraExitosa");
 
-//Estas funciones son las que hacen que nuestros botones funcionen y además se muestran en el DOM
+//eventos asociados a las funciones
 abrirCarrito.addEventListener("click", () => {
   modalContenedor.classList.toggle("modal-active");
 });
@@ -24,7 +24,7 @@ modalCarrito.addEventListener("click", (e) => {
   }
 });
 
-//Esta función es la encargada de realizar la compra en el carrito
+//funcion de compra
 compraExitosa.addEventListener("click", () => {
   mostrarMensajeCompraExitosa()
     .then(() => {
@@ -35,16 +35,16 @@ compraExitosa.addEventListener("click", () => {
     });
 });
 
-//Esta función asincrónica está conectada con el evento de compraExitosa porque maneja el tiempo de espera y a la vez muestra un mensaje de éxito
+//funcion asincrónica + evento de compraExitosa
 const mostrarMensajeCompraExitosa = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       Swal.fire({
         icon: "success",
-        title: "¡Bien Hecho!",
+        title: "Felicitaciones!",
         text: "Su compra ha sido realizada con éxito",
       });
       resolve(); // Resuelve la promesa después de mostrar el mensaje
-    }, 2000); // Simula un retraso de 2 segundos antes de mostrar el mensaje
+    }, 2000); // Simula retraso de 2 segundos antes de mostrar el mensaje
   });
 };
