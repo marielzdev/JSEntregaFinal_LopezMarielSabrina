@@ -19,6 +19,7 @@ body {
 /* footer copyright */
 .footerbackgroundcolor {
   background-color: #00d9ff;
+  text-align: center;
 }
 
 /* footer contact*/
@@ -40,7 +41,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.3 rem 10%;
+  font-family: roboto;
+  padding: 1%;
+  padding-left: 4%;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
