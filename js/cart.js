@@ -91,7 +91,7 @@ const actualizarTotalesCarrito = (carrito) => {
 
 const pintarTotalesCarrito = (totalCantidad, totalCompra) => {
   const contadorCarrito = document.getElementById("contador-carrito");
-  const precioTotal = document.getElementById("precio-Total");
+  const precioTotal = document.getElementById("precio-total");
   contadorCarrito.innerText = totalCantidad;
   precioTotal.innerText = totalCompra;
 };
@@ -102,7 +102,7 @@ const guardarCarritoStorage = (carrito) => {
   localStorage.setItem("carrito", JSON.stringify(carrito));
 };
 
-//Esta función obtiene los productos del carrito a un objeto JS
+//Esta función obtiene los productos del carrito que estan en el JSON del localstorage
 
 const obtenerCarritoStorage = () => {
   const carritoStorage = JSON.parse(localStorage.getItem("carrito"));

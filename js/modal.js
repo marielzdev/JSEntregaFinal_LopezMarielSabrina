@@ -44,7 +44,7 @@ const mostrarMensajeCompraExitosa = () => {
         title: "Felicitaciones!",
         text: "Su compra ha sido realizada con éxito",
       });
-      resolve(); // Resuelve la promesa después de mostrar el mensaje
-    }, 2000); // Simula retraso de 2 segundos antes de mostrar el mensaje
+      resolve();
+    }, 1500);
   });
 };
